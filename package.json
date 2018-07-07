@@ -1,7 +1,7 @@
 {
-  "name": "crawl-phone-fb",
+  "name": "crawl-fb-v2",
   "version": "1.0.0",
-  "description": "",
+  "description": "Simple script to detect email and phone from facebook comment",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
