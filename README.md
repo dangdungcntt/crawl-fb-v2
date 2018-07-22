@@ -12,7 +12,7 @@ cp .env.sample .env
 mkdir data
 ```
 
-  * Update your `ACCESS_TOKEN` in `.env`
+  * Update your `ACCESS_TOKEN` in `.env`. [How to get ACCESS_TOKEN?](https://code.nddcoder.com/v/VrGZXvN6)
 ```bash
 ACCESS_TOKEN=<ACCESS_TOKEN>
 ```
