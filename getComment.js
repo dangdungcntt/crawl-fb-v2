@@ -10,7 +10,7 @@ let paramFileName = process.argv[3] || paramPostID;
 
 let listPosts = process.argv.slice(2, process.argv.length);
 
-if (fs.existsSync('./listPostID.json')) {
+if (listPosts.length === 0 && fs.existsSync('./listPostID.json')) {
     listPosts = listPosts.concat(require('./listPostID.json'));
 }
 
