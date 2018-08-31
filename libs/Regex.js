@@ -1,5 +1,5 @@
 const phone = new RegExp(/\d{9,11}/);
-const email = new RegExp(/[^\s]+@[^\s]+\.[^\s]+/);
+const email = new RegExp(/[^\s]+@[^\s]+(?:\.[^\s]+)+/);
 
 module.exports = {
     getPhone(str) {
